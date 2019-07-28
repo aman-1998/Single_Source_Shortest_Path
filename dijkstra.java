@@ -110,13 +110,13 @@ class dij
 				cost[i][j]=in.nextInt();
 			}
 		}
-		System.out.print("Directed weight Matrix: ");
+		System.out.print("Directed weight Matrix: \n");
 		for(i=1;i<=n;i++)
 		{
 			for(j=1;j<=n;j++)
 			{
 				if(cost[i][j]==999)
-					System.out.print((char)236+" ");
+					System.out.print((char)8734+" ");
 				else
 					System.out.print(cost[i][j]+" ");
 			}
